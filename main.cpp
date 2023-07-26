@@ -153,17 +153,17 @@ void setPattern(SDL_Renderer* renderer) {
         createLoaf(x, y);
     }
 
-    // Create random loafs
+    // Create random sliders
     for (int i = 0; i < numSliders; i++) {
         // Generate random position and color
         int x = rand() % (FRAMEBUFFER_WIDTH - 4);
         int y = rand() % (FRAMEBUFFER_HEIGHT - 4);
 
-        // Create loaf
+        // Create sliders
         createSliders(x, y);
     }
 
-    // Create random loafs
+    // Create random boats
     for (int i = 0; i < numBoats; i++) {
         // Generate random position and color
         int x = rand() % (FRAMEBUFFER_WIDTH - 4);
@@ -173,23 +173,23 @@ void setPattern(SDL_Renderer* renderer) {
         createBoat(x, y);
     }
 
-    // Create random loafs
+    // Create random beacons
     for (int i = 0; i < numBeacons; i++) {
         // Generate random position and color
         int x = rand() % (FRAMEBUFFER_WIDTH - 4);
         int y = rand() % (FRAMEBUFFER_HEIGHT - 4);
 
-        // Create loaf
+        // Create beacons
         createBeacon(x, y);
     }
 
-    // Create random loafs
+    // Create random toads
     for (int i = 0; i < numToads; i++) {
         // Generate random position and color
         int x = rand() % (FRAMEBUFFER_WIDTH - 4);
         int y = rand() % (FRAMEBUFFER_HEIGHT - 4);
 
-        // Create loaf
+        // Create toads
         createToad(x, y);
     }
 

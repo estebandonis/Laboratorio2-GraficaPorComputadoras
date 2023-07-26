@@ -8,3 +8,4 @@ Y luego ejecutar el siguiente comando en la terminal:
 ./comprun.sh
 ```
 Al ejecutarlo se verá algo así:
+![GameOfLife](https://github.com/estebandonis/Laboratorio2-GraficaPorComputadoras/assets/77749546/2b7e4f3a-a233-43b2-b163-4309b81ee01d)

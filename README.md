@@ -5,8 +5,24 @@ Para ejecutarlo, debemos de tener los frameworks de SDL en el folder de /Library
 
 Y luego ejecutar el siguiente comando en la terminal:
 ```shell
-./comprun.sh
+cmake -S . -B build
 ```
+
+Luego debemos de entrar en la carpeta build:
+```shell
+cd build
+```
+
+Para después utilizar la librería make:
+```shell
+make
+```
+
+Y por ultimo ejecutar el archivo compilado (En este caso yo lo llame GAME, revise CMakeLists.txt):
+```shell
+./GAME
+```
+
 Al ejecutarlo se verá algo así:
 
 
